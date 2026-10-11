@@ -1,0 +1,14 @@
+[
+null,
+{"id":1,"expanded":true,"name":"有理區","order":1,"parentId":0,"scrollX":540.6666666666666,"scrollY":304.3333333333333,"quick":false},
+{"id":2,"expanded":true,"name":"Worldmap","order":2,"parentId":1,"scrollX":540.6666666666666,"scrollY":304.3333333333333,"quick":false},
+{"id":3,"expanded":true,"name":"Opening","order":3,"parentId":2,"scrollX":0,"scrollY":0,"quick":false},
+{"id":4,"expanded":true,"name":"π城","order":4,"parentId":3,"scrollX":1216.5,"scrollY":688.5,"quick":false},
+{"id":5,"expanded":true,"name":"拋鎮","order":5,"parentId":4,"scrollX":0,"scrollY":0,"quick":false},
+{"id":6,"expanded":true,"name":"sqroom","order":8,"parentId":2,"scrollX":0,"scrollY":0,"quick":false},
+{"id":7,"expanded":true,"name":"room1","order":9,"parentId":6,"scrollX":0,"scrollY":0,"quick":false},
+{"id":8,"expanded":true,"name":"room2","order":10,"parentId":7,"scrollX":0,"scrollY":0,"quick":false},
+{"id":9,"expanded":false,"name":"room3","order":11,"parentId":8,"scrollX":0,"scrollY":0,"quick":false},
+{"id":10,"expanded":false,"name":"Imaginary π城","order":6,"parentId":4,"scrollX":0,"scrollY":0,"quick":false},
+{"id":11,"expanded":false,"name":"MAP011","order":7,"parentId":10,"scrollX":0,"scrollY":0,"quick":false}
+]

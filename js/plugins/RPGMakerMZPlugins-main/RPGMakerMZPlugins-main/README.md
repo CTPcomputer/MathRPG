@@ -1,0 +1,2 @@
+# RPGMakerMZPlugins
+RPGMaker MZ Plugins

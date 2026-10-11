@@ -1,0 +1,12 @@
+{
+    "name": "rmmz-game",
+    "main": "index.html",
+    "chromium-args": "--force-color-profile=srgb",
+    "window": {
+        "title": "小朋友齊傾數之i篇",
+        "width": 576,
+        "height": 524,
+        "position": "center",
+        "icon": "icon/icon.png"
+    }
+}

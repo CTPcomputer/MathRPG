@@ -1,0 +1,23 @@
+// 添加变量条件
+KJ.Cursor.checkVariable = function() {
+if ($gameVariables.value(1) === 1) { // 假设变量1控制光标切换
+// 切换为 Cursor.png
+document.body.style.cursor = `url(img/system/Cursor.png), auto`;
+} else {
+// 恢复默认光标
+document.body.style.cursor = `url(img/system/${KJ.Cursor.Name}), auto`;
+}
+};
+	
+// 在场景更新时持续检测变量
+KJ.Cursor.Scene_Base_update = Scene_Base.prototype.update;
+Scene_Base.prototype.update = function() {
+KJ.Cursor.Scene_Base_update.call(this);
+KJ.Cursor.checkVariable(); // 调用变量检测
+// 原有光标逻辑...
+};
+
+
+$gameVariables.setValue(1, 1); // 设置变量1为1
+
+$gameVariables.setValue(1, 0); // 设置变量1为0
